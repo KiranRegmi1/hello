@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">RHS</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_sign_up">RHS SignUp Page</string>
+    <string name="title_activity_home_page">RHS Home Page</string>
+    <string name="title_activity_search_display_area">Search Display Area</string>
+    <string name="title_activity_add_information">Add Information</string>
+
+    <string-array name="type">
+        <item>ROOM</item>
+        <item>FLAT</item>
+        <item>HOUSE</item>
+    </string-array>
+    <string name="title_activity_details">Details</string>
+    <string name="title_activity_your_info_area">Your Info Area</string>
+    <string name="title_activity_test2">Test2</string>
+    <string name="title_activity_your_info_details">Your Info Details</string>
+    <string name="title_activity_edit_info_area">Edit Info Area</string>
+    <string name="title_activity_image_upload">Upload Image</string>
+
+</resources>

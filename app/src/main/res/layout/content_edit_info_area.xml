@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.a.finalproject.EditInfoArea"
+    tools:showIn="@layout/activity_edit_info_area">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <AutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/acTvCity"
+            android:hint="City"/>
+        <AutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/acTvStreet"
+            android:hint="Street" />
+        <AutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/acTvArea"
+            android:hint="Area" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/etHouse_No"
+            android:hint="House Number" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/etPrice"
+            android:hint="Price"
+            android:inputType="number"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/etContact"
+            android:hint="Contact"
+            android:inputType="phone" />
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinnerType"
+            android:entries="@array/type"
+            android:layout_marginTop="15dp"
+            ></Spinner>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnUpdate"
+            android:text="Update"
+            android:textStyle="bold"
+            android:onClick="btnUpdate"
+            android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
